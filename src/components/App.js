@@ -19,6 +19,8 @@ class App extends Component {
         if (ch1 == ch2) {
           s1 = s1.substring(0, i) + s1.substring(i + 1, s1.length);
           s2 = s2.substring(0, j) + s2.substring(j + 1, s2.length);
+          i--;
+          j--;
           break;
         }
       }
